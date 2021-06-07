@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 180vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  line-height: 1.6;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  overflow-x: hidden;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  background: white;
+  min-height: fit-content;
+  /* height: calc(100vh -80px); */
+  background: white;
+  width: 80%;
+  margin: auto;
+  padding: 2px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(192, 167, 167, 0.7),
+    rgba(212, 196, 196, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 3;
+  backdrop-filter: blur(2rem);
+  position: absolute;
+  overflow: hidden;
+}
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(192, 167, 167, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 65%;
+  overflow: hidden;
+  position: absolute;
+}
+.circle1 {
+  top: -5%;
+  right: -5%;
+}
+.circle2 {
+  bottom: -5%;
+  left: -5%;
+}
+.Title {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+  margin-top: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+.page {
+  font-size: 15px;
+  font-style: normal;
+  border-bottom: solid black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0 5px;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+.servey-form {
+  margin-top: 5px;
+  width: auto;
+  padding: 2px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  overflow: hidden;
+}
+
+.form-group {
+  display: flexbox;
+  padding: 2px 5px;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.name,
+.email {
+  margin-left: 80px;
+}
+
+.phone {
+  margin-left: 5px;
+}
+
+.dropdown {
+  margin-right: 1px;
+  position: relative;
+}
+
+#dropdown {
+  overflow: hidden;
+  margin-right: 13px;
+}
+
+#name,
+#email,
+#phone,
+#Company,
+#dropdown,
+#Website {
+  width: 30%;
+  height: 25px;
+  overflow: hidden;
+  box-sizing: content-box;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: none;
+  outline: none;
+  border: 1px;
+  color: black;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+#site,
+#budget {
+  width: 30%;
+  height: 25px;
+  overflow: hidden;
+  box-sizing: content-box;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: none;
+  outline: none;
+  border: 1px;
+  color: black;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+#site,
+#Website {
+  margin-right: 90px;
+}
+
+#budget {
+  margin-right: 55px;
+}
+
+#color {
+  width: 30%;
+  height: 25px;
+  overflow: hidden;
+  box-sizing: content-box;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: none;
+  outline: none;
+  border: 1px;
+  color: black;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.Navigation,
+.flex,
+.services,
+.main,
+.perform,
+.p,
+.p1 {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.flex input,
+.main input {
+  margin: 0 2px 0 20px;
+}
+
+.p input,
+.p1 input {
+  margin: 0 2px 0 40px;
+}
+
+.Comments {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  resize: none;
+  overflow: hidden;
+  outline: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 100px;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  text-decoration: black;
+  font-style: normal;
+  border-color: aqua;
+  background: aqua;
+  color: black;
+  overflow: hidden;
+  justify-content: space-around;
+  margin: 10px 0;
+  box-shadow: 3px 2px 3px 2px black;
+}
