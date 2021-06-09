@@ -21,7 +21,7 @@ main {
   text-align: center;
   justify-content: center;
   background: white;
-  min-height: fit-content;
+  min-height: 80vh;
   /* height: calc(100vh -80px); */
   background: white;
   width: 80%;
